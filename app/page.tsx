@@ -118,7 +118,7 @@ export default function Portfolio() {
               transition={{ type: "spring", stiffness: 400 }}
             >
               <div className="headline-font text-4xl font-black text-black dark:text-white tracking-tight">
-                THE ABRAR TIMES
+                ABRAR MUBEEN
               </div>
               <div className="byline-font text-xs text-black/70 dark:text-white/70 mt-1">
                 EST. 2025 • PORTFOLIO EDITION • VOL. 1, NO. 1
