@@ -1,0 +1,130 @@
+{
+  "personal": {
+    "name": "Abrar Mubeen",
+    "title": "Software Engineering Student & Full-Stack Developer",
+    "email": "abrarmubeen821@gmail.com",
+    "phone": "+880-1797939187",
+    "location": "South Hall, IUT, Gazipur",
+    "github": "https://github.com/rarefox21",
+    "website": "placeholder.com",
+    "summary": "Results-driven Software Engineering undergraduate with robust experience in full-stack web development, data science, and team leadership. Proven track record of delivering scalable, user-centric solutions for university and real-world clients."
+  },
+  "experience": [
+    {
+      "id": 1,
+      "title": "Website Developer",
+      "company": "IUT Computer Society",
+      "role": "Full-stack Developer",
+      "period": "May 2025 – July 2025",
+      "location": "IUT",
+      "description": [
+        "Developed a full-stack event registration website for CodeRush 2025 using Laravel, Blade, Tailwind, and MySQL",
+        "Led UI/UX design and implemented Git-based workflow in a 4-member team",
+        "Deployed on Apache with reverse proxy; managed over 400 registrations across 6 events"
+      ],
+      "technologies": ["Laravel", "Blade", "Tailwind CSS", "MySQL", "Apache"],
+      "liveUrl": "iutcs.iutoic-dhaka.edu"
+    },
+    {
+      "id": 2,
+      "title": "Website Developer",
+      "company": "IUT FIS",
+      "role": "Full-stack Developer",
+      "period": "June 2024 – August 2024",
+      "location": "IUT",
+      "description": [
+        "Built a blogging and event hosting platform for IUT FIS using Laravel, MySQL, and Bootstrap",
+        "Designed and implemented UI/UX with Blade components",
+        "Collaborated in a team using Git for version control"
+      ],
+      "technologies": ["Laravel", "MySQL", "Bootstrap", "Blade", "Git"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "IUT Distant Learning Theater Booking System",
+      "description": "Co-developed a booking and meeting management platform for IUT DLT; streamlined reservations for 200+ users.",
+      "technologies": ["Laravel", "MySQL", "Bootstrap", "JavaScript"],
+      "liveUrl": "dlt.library.iutoic-dhaka.edu",
+      "category": "Web Development",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Event Registration Platform for CodeRush 2025",
+      "description": "Built a scalable registration system handling 400+ entries across 6 events; improved registration efficiency by 30%.",
+      "technologies": ["Laravel", "Tailwind CSS", "MySQL", "Apache"],
+      "liveUrl": "iutcs.iutoic-dhaka.edu",
+      "category": "Web Development",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Service Provider Marketplace Website",
+      "description": "Developed and deployed a live marketplace platform connecting local service providers with clients.",
+      "technologies": ["Laravel", "MySQL", "Bootstrap", "JavaScript"],
+      "category": "Web Development",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Comparative Analysis of Pretrained ImageNet Models",
+      "description": "Conducted a comparative study of 15 CNN models for static hand gesture recognition; found ConvNextBase best performing.",
+      "technologies": ["Python", "TensorFlow", "Keras", "NumPy", "Pandas"],
+      "githubUrl": "https://github.com/sakhadib/Machine-Learning-Project",
+      "category": "Data Science",
+      "featured": true
+    },
+    {
+      "id": 5,
+      "title": "VMATH – A Comprehensive Java Math Library",
+      "description": "Co-developed a Java library with 8+ packages and 100+ optimized functions for advanced mathematical computation.",
+      "technologies": ["Java", "Maven", "JUnit"],
+      "githubUrl": "https://github.com/sakhadib/vmath",
+      "category": "Library Development"
+    },
+    {
+      "id": 6,
+      "title": "MathXplorer – Smart Math Contest Platform",
+      "description": "Built a contest platform with ELO rating and AI chat integration; enabled automated contest management.",
+      "technologies": ["React", "Node.js", "MongoDB", "Socket.io"],
+      "category": "Web Development"
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "Java", "C#", "PHP", "C++", "JavaScript"],
+    "frameworks": ["React", "Laravel", "Django REST", "Spring Boot", "Bootstrap", "Tailwind CSS"],
+    "databases": ["MySQL", "PostgreSQL", "Oracle", "MongoDB"],
+    "dataScience": ["NumPy", "Pandas", "Keras", "TensorFlow"],
+    "tools": ["Git", "Postman", "Excel", "Linux", "WordPress", "LaTeX"]
+  },
+  "education": {
+    "degree": "BSc. in Software Engineering",
+    "institution": "Islamic University of Technology, Gazipur",
+    "period": "6th Semester",
+    "cgpa": "3.91/4.00",
+    "notableCourses": [
+      "Object Oriented Programming (A+)",
+      "Advanced OOP & Refactoring (A+)",
+      "Software Requirement Specifications (A+)",
+      "Design Patterns (A+)",
+      "Server Programming (A+)",
+      "Data Structures and Algorithms (A+)"
+    ]
+  },
+  "achievements": [
+    "CGPA 3.91/4.00 (till 5th Semester)",
+    "14 Kaggle Badges and Bronze Medals (2024)",
+    "Pull Shark, YOLO, Quickdraw Badges on GitHub (2024)",
+    "215 problems solved on Codeforces; 62 on LeetCode",
+    "92nd Worldwide, Physics Brawl (2023)"
+  ],
+  "extracurricular": [
+    "Joint Secretary, IUT Al-Fazari Interstellar Society",
+    "Assistant Director (Technical Affairs), IUT Computer Society",
+    "Former President, Cygnus Astronomy Club, Rajshahi",
+    "Participant, BDMO, BDPho, BDOAAO Olympiads",
+    "Table Tennis Tournament Participant, intra-IUT"
+  ]
+}
