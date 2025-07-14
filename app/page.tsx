@@ -178,14 +178,20 @@ export default function Portfolio() {
                   {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
                 </motion.div>
               </MotionButton>
-              <MotionButton
-                className="newspaper-card bg-black text-white hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white transition-all duration-300 byline-font"
-                whileHover={{ scale: 1.02, y: -1 }}
-                whileTap={{ scale: 0.98 }}
+              <a
+                href="https://drive.google.com/file/d/1Z0FvEl9lRJBwoQzo3n7Oc697tR6UnJJg/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Download className="mr-2 h-4 w-4" />
-                GET RESUME
-              </MotionButton>
+                <MotionButton
+                  className="newspaper-card bg-black text-white hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white transition-all duration-300 byline-font"
+                  whileHover={{ scale: 1.02, y: -1 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  <Download className="mr-2 h-4 w-4" />
+                  GET RESUME
+                </MotionButton>
+              </a>
             </motion.div>
           </div>
         </div>
@@ -335,16 +341,22 @@ export default function Portfolio() {
                   READ FULL STORY
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </MotionButton>
-                <MotionButton
-                  variant="outline"
-                  size="lg"
-                  className="px-8 py-4 text-lg newspaper-card border-2 border-black text-black hover:bg-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black byline-font transition-all duration-300 bg-transparent"
-                  whileHover={{ scale: 1.02, y: -2 }}
-                  whileTap={{ scale: 0.98 }}
+                <a
+                  href="https://drive.google.com/file/d/1Z0FvEl9lRJBwoQzo3n7Oc697tR6UnJJg/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <Download className="mr-2 h-5 w-5" />
-                  DOWNLOAD RESUME
-                </MotionButton>
+                  <MotionButton
+                    variant="outline"
+                    size="lg"
+                    className="px-8 py-4 text-lg newspaper-card border-2 border-black text-black hover:bg-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black byline-font transition-all duration-300 bg-transparent"
+                    whileHover={{ scale: 1.02, y: -2 }}
+                    whileTap={{ scale: 0.98 }}
+                  >
+                    <Download className="mr-2 h-5 w-5" />
+                    DOWNLOAD RESUME
+                  </MotionButton>
+                </a>
               </motion.div>
 
               {/* Social Media Links */}
