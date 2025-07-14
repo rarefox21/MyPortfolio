@@ -20,7 +20,8 @@ export async function POST(request: NextRequest) {
     }
 
     await resend.emails.send({
-      from: email,
+      // Use the email provided by the user
+      from: `${name} <${email}>`,
       to: "abrarmubeen821@gmail.com",
       subject: "New Contact Form Submission",
       html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
